@@ -12,7 +12,7 @@ from sklearn.naive_bayes import MultinomialNB
 from imblearn.pipeline import Pipeline as ImbPipeline
 from imblearn.over_sampling import SMOTE
 
-# start_time = time.time()
+start_time = time.time()
 
 # Load data
 data = pd.read_csv("../Materias/NoT_NoBalance_Filtered_Total_Data2.csv")
